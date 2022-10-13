@@ -1,0 +1,13 @@
+I:\WebApp4\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csproj.AssemblyReference.cache
+I:\WebApp4\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+I:\WebApp4\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfoInputs.cache
+I:\WebApp4\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfo.cs
+I:\WebApp4\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csproj.CoreCompileInputs.cache
+I:\WebApp4\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.deps.json
+I:\WebApp4\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.dll
+I:\WebApp4\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.pdb
+I:\WebApp4\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.dll
+I:\WebApp4\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.pdb
+I:\WebApp4\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.json
+I:\WebApp4\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.dev.json
+I:\WebApp4\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.genruntimeconfig.cache
