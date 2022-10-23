@@ -7,6 +7,7 @@ namespace DataLayer
 {
     public class MyCmsContext:DbContext
     {
+
         public MyCmsContext(DbContextOptions<MyCmsContext> option) : base(option)
         {
 
@@ -14,5 +15,9 @@ namespace DataLayer
         public DbSet<PageGroup> PageGroups { get; set; }
         public DbSet<Page> Pages { get; set; }
         public DbSet<PageComment> PageComments { get; set; }
+
+        public MyCmsContext()
+        {
+        }
     }
 }

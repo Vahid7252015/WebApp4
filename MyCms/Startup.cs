@@ -1,3 +1,4 @@
+using DataLayer;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.AzureAD.UI;
 using Microsoft.AspNetCore.Authorization;
@@ -5,6 +6,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc.Authorization;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -37,6 +39,7 @@ namespace MyCms
                     .Build();
                 options.Filters.Add(new AuthorizeFilter(policy));
             });
+            services.AddDbContext<MyCmsContext>(option => option.UseSqlServer("data source=.;initial catalog=MyCmsDB;user id=sa;password=123"));
             services.AddRazorPages();
         }
 
